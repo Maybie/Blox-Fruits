@@ -330,19 +330,6 @@ CreateElement("ScrollFrame", function(Color, Width)
 	return ScrollFrame
 end)
 
-CreateElement("Image", function(ImageID)
-	local ImageNew = Create("ImageLabel", {
-		Image = ImageID,
-		BackgroundTransparency = 1
-	})
-
-	if GetIcon(ImageID) ~= nil then
-		ImageNew.Image = GetIcon(ImageID)
-	end	
-
-	return ImageNew
-end)
-
 CreateElement("ImageButton", function(ImageID)
 	local Image = Create("ImageButton", {
 		Image = ImageID,
