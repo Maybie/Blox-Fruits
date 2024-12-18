@@ -23,7 +23,7 @@ if (AutoShow == nil) then
     AutoShow = true
 end
 local Window = Library:CreateWindow({
-    Title = "epic hax",
+    Title = "Eu dou o bumbum",
     Center = true,
     AutoShow = AutoShow
 })
