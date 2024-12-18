@@ -135,12 +135,6 @@ local function CreateElement(ElementName, ElementFunction)
 		return ElementFunction(...)
 	end
 end
-
-local function MakeElement(ElementName, ...)
-	local NewElement = OrionLib.Elements[ElementName](...)
-	return NewElement
-end
-
 local function SetProps(Element, Props)
 	table.foreach(Props, function(Property, Value)
 		Element[Property] = Value
